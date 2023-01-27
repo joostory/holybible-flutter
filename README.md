@@ -1,4 +1,4 @@
-# 성경 ![Build Result](https://github.com/joostory/oh-my-bible/workflows/Test/badge.svg)
+# 성경 ![Build Result](https://github.com/joostory/holybible-flutter/workflows/Test/badge.svg)
 
 성경앱 flutter 버전
 

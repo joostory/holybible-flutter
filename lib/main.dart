@@ -1,6 +1,3 @@
-import 'package:firebase_analytics/firebase_analytics.dart';
-import 'package:firebase_core/firebase_core.dart';
-import 'package:firebase_analytics/observer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:holybible/actions/actions.dart';
@@ -15,12 +12,8 @@ import 'package:holybible/screens/bible/verselist_screen.dart';
 import 'package:holybible/screens/hymn/hymnscore_screen.dart';
 import 'package:redux/redux.dart';
 import 'components/navigation_bar.dart';
-import 'firebase_options.dart';
 
 void main() async {
-  // await Firebase.initializeApp(
-  //   options: DefaultFirebaseOptions.currentPlatform,
-  // );
   runApp(HolyBibleApp());
 }
 
@@ -83,9 +76,6 @@ class _ThemeAppState extends State<_ThemeApp> {
 
   @override
   Widget build(BuildContext context) {
-    // FirebaseAnalytics analytics = FirebaseAnalytics.instance;
-    // FirebaseAnalyticsObserver observer = FirebaseAnalyticsObserver(analytics: analytics);
-
     return StoreConnector<AppState, _ViewModel>(
       converter: _ViewModel.fromStore,
       builder: (BuildContext context, _ViewModel vm) {
