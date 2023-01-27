@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1098788514565-sb3imoj9ehhtmvfjf98cuv6c3si3bm5j.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1098788514565-sb3imoj9ehhtmvfjf98cuv6c3si3bm5j</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1098788514565-ab9rtm33vfjvsuvtf8dq9cadagic0bth.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA4jRlt8AjVY45_OsjLYnhp0-2VWQg2Wws</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1098788514565</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>net.joostory.holybible</string>
+	<key>PROJECT_ID</key>
+	<string>holybibleandroid</string>
+	<key>STORAGE_BUCKET</key>
+	<string>holybibleandroid.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1098788514565:ios:d0adeb0c9b33b28c46256c</string>
+	<key>DATABASE_URL</key>
+	<string>https://holybibleandroid.firebaseio.com</string>
+</dict>
+</plist>
